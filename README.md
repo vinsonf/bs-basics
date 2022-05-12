@@ -5,7 +5,7 @@
 1. create directory ./scss/style.scss
 1. create directory ./css
 1. @import '../node_modules/bootstrap/scss/bootstrap';
-1. run command 'sass ./scss/:./css
+1. run command 'sass ./scss/:./css -w
 
 
 
