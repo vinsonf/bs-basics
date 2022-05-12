@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&family=Macondo&family=Oleo+Script+Swash+Caps:wght@400;700&family=Tapestry&display=swap');
+
+
+
+@import './_bs';
+
+
+$ff1: 'Koulen';
+$ff2: 'Lobster';
+$ff3: 'Macondo';
+$ff4: 'Oleo Script Swash Caps';
+$ff5: 'Tapestry';
+
+
+.font-family-1 {
+  font-family: $ff1;
+}
+
+.font-family-2 {
+  font-family: $ff2;
+}
+
+.font-family-3 {
+  font-family: $ff3;
+}
+
+
+
+
+
+
+
