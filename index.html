@@ -7,7 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="bg-success font-family-1">
+<body class="bg-third font-family-1">
+  <script>
+    fetch('https://pokeapi.co/api/v2/pokemon/1').then(res=>res.json()).then(res=>{
+      const img = document.createElement('img');
+      img.src = res.sprites.front_default;
+      document.body.appendChild(img);
+    })
+  </script>
     <nav class="navbar navbar-expand-lg navbar-light bg-light font-family-1">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -35,7 +42,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 bg-primary text-center p-5">
-                <h1 class="text-light p-5 display-1 fw-bolder font-family-2">Hello World</h1>
+                <h1 class="text-fourth  p-5 display-sm-1 display-md-2 fw-bolder font-family-2">Hello World</h1>
             </div>
 
 
@@ -66,7 +73,7 @@
                       </div>
                 </div>
     
-                <div class="col-6 col-md-4 card-container p-2 mt-5">
+                <div class="col-6 col-md-4 card-container p-2 mt-5 d-none d-md-block">
                     <div class="card " >
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9T8_ygk3NfRIRbwcVCi21mNaoFqF6kfhhiPyq-zNeUPWcJy0K4NwZqcvPhLL0tdxKZ-U&usqp=CAU" class="card-img-top" alt="...">
                         <div class="card-body">
